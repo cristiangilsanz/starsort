@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300">
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#b083f0" stop-opacity="0.35"/>
+      <stop offset="0.6" stop-color="#4fb3ff" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#4fb3ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="core" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#ffe9a8"/>
+      <stop offset="1" stop-color="#f0b429"/>
+    </radialGradient>
+    <radialGradient id="blue" cx="0.4" cy="0.35" r="0.65">
+      <stop offset="0" stop-color="#e6f4ff"/>
+      <stop offset="1" stop-color="#2f8de4"/>
+    </radialGradient>
+    <radialGradient id="red" cx="0.4" cy="0.35" r="0.65">
+      <stop offset="0" stop-color="#ffd0c4"/>
+      <stop offset="1" stop-color="#e5484d"/>
+    </radialGradient>
+    <radialGradient id="gold" cx="0.4" cy="0.35" r="0.65">
+      <stop offset="0" stop-color="#fff4cf"/>
+      <stop offset="1" stop-color="#e3a008"/>
+    </radialGradient>
+  </defs>
+
+  <circle cx="150" cy="150" r="146" fill="url(#glow)"/>
+
+  <g fill="none" stroke-width="3" stroke-dasharray="7 6" stroke-linecap="round">
+    <ellipse cx="88" cy="214" rx="54" ry="40" stroke="#e5484d" stroke-opacity="0.8"/>
+    <ellipse cx="214" cy="86" rx="56" ry="42" stroke="#4fb3ff" stroke-opacity="0.8"/>
+    <ellipse cx="150" cy="150" rx="104" ry="30" transform="rotate(-45 150 150)" stroke="#f0b429" stroke-opacity="0.55"/>
+  </g>
+
+  <g stroke="#0d1117" stroke-opacity="0.35" stroke-width="1.5">
+    <circle cx="70" cy="204" r="9" fill="url(#red)"/>
+    <circle cx="98" cy="226" r="7" fill="url(#red)"/>
+    <circle cx="108" cy="198" r="6" fill="url(#red)"/>
+    <circle cx="74" cy="232" r="5" fill="url(#red)"/>
+
+    <circle cx="232" cy="72" r="15" fill="url(#blue)"/>
+    <circle cx="196" cy="100" r="11" fill="url(#blue)"/>
+    <circle cx="200" cy="64" r="8" fill="url(#blue)"/>
+    <circle cx="240" cy="106" r="7" fill="url(#blue)"/>
+
+    <circle cx="122" cy="178" r="7" fill="url(#gold)"/>
+    <circle cx="178" cy="122" r="8" fill="url(#gold)"/>
+  </g>
+
+  <path d="M150 104 C 155 136 164 145 196 150 C 164 155 155 164 150 196 C 145 164 136 155 104 150 C 136 145 145 136 150 104 Z" fill="url(#core)" stroke="#ffffff" stroke-width="1.5"/>
+  <circle cx="150" cy="150" r="9" fill="#ffffff"/>
+
+  <g fill="#ffffff">
+    <circle cx="44" cy="70" r="2.2" opacity="0.8"/>
+    <circle cx="260" cy="210" r="2.6" opacity="0.8"/>
+    <circle cx="70" cy="128" r="1.6" opacity="0.6"/>
+    <circle cx="236" cy="168" r="1.6" opacity="0.6"/>
+    <circle cx="130" cy="40" r="1.8" opacity="0.7"/>
+    <circle cx="176" cy="262" r="1.8" opacity="0.7"/>
+  </g>
+</svg>
